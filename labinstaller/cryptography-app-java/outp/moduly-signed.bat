@@ -1,0 +1,1 @@
+java -p "C:\Users\milro\eclipse-workspace\cryptography-app-java\outp\signedapp.jar;C:\Users\milro\eclipse-workspace\cryptography-app-java\outp\signedlib.jar" -m cryptographyApp/appc.Main

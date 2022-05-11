@@ -1,0 +1,5 @@
+javac --release 9 -d bin\classes9 java9\example\*.java
+javac --release 8 -d bin\classes8 java8\example\*.java
+javac --release 10 -d bin\classes10 java10\example\*.java
+javac --release 11 -d bin\classes11 java11\example\*.java
+jar --create --file combo.jar --main-class example.Main -C bin\classes8 . --release 9 -C bin\classes9 . --release 10 -C bin\classes10 . --release 11 -C bin\classes11 .

@@ -1,0 +1,1 @@
+jpackage --name Encryptor --module-path "C:\Program Files\Java\jdk-18.0.1.1\jmods;C:\Users\milro\eclipse-workspace\cryptography-app-java\outp2\aplication.jar;C:\Users\milro\eclipse-workspace\cryptography-app-java\outp2\library.jar" --module cryptographyApp/appc.Main --add-modules cryptographyApp,cryptographyLib --win-shortcut --win-menu
